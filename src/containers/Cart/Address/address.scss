@@ -1,0 +1,51 @@
+.radioBtnAddress {
+  max-height: calc(100vh - 250px);
+  overflow-y: auto;
+  flex-wrap: nowrap !important;
+  /* width: calc(100vw 
+        - 30px); */
+  .customizes_radio {
+    /* border: 1px solid #00000040; */
+    display: flex;
+    box-shadow: 0px 6px 6px 0px rgba(15, 0, 0, 0.1);
+    margin: 10px 10px;
+
+    display: grid;
+    gap: 1;
+    grid-template-columns: auto 1fr 57px;
+    padding-bottom: 10px;
+    pointer-events: inherit;
+    input {
+      align-self: flex-start;
+    }
+    .addressInfo {
+      display: flex;
+      flex-direction: column;
+      span {
+        letter-spacing: 1px;
+        line-height: 20px;
+        text-transform: capitalize;
+      }
+      h5,
+      h4,
+      h3 {
+        margin: 5px 0px;
+      }
+    }
+    .address_two {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    .address_one {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.saved {
+  width: -webkit-fill-available;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}

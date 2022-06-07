@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@font-face {
+  font-family: 'gotham-medium';
+  src: url('./assests/fonts/Gotham-Medium.eot');
+  src: url('./assests/fonts/Gotham-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('./assests/fonts/Gotham-Medium.woff') format('woff'),
+    url('./assests/fonts/Gotham-Medium.ttf') format('truetype'),
+    url('./assests/fonts/Gotham-Medium.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham-book';
+  src: url('./assests/fonts/Gotham-Book.eot');
+  src: url('./assests/fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+    url('./assests/fonts/Gotham-Book.woff') format('woff'),
+    url('./assests/fonts/Gotham-Book.ttf') format('truetype'),
+    url('./assests/fonts/Gotham-Book.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham-bold';
+  src: url('./assests/fonts/Gotham-Book.otf');
+  font-weight: normal;
+  font-style: normal;
 }
